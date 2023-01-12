@@ -31,6 +31,6 @@ fn main() -> Result<(), Error> {
 
     let package_info: Config = toml::from_str(toml)?;
 
-    // println!("{:#?}", config);
+    println!("{:#?}", package_info);
     Ok(())
 }
